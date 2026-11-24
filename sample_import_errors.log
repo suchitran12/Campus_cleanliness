@@ -1,0 +1,26 @@
+Import log - 2026-11-24 07:58:21
+Source        : bad_import_sample.csv
+Rows read     : 12
+Imported      : 2
+Rejected      : 10
+----------------------------------------------------------------------
+Row 4: date: Date must be a real calendar date in YYYY-MM-DD format, e.g. 2026-11-23.
+    data: {'date': '23/11/2026', 'location': 'Main Cafeteria', 'area_type': 'Cafeteria', 'rating': '3', 'issue_type': 'Spill', 'description': 'Wrong date format', 'reporter': 'Kiran Patel', 'status': 'Open'}
+Row 5: date: Date cannot be in the future.
+    data: {'date': '2026-11-29', 'location': 'Main Cafeteria', 'area_type': 'Cafeteria', 'rating': '3', 'issue_type': 'Spill', 'description': 'Future date', 'reporter': 'Kiran Patel', 'status': ''}
+Row 6: rating: Rating must be between 1 and 5.
+    data: {'date': '2026-11-21', 'location': 'Sports Ground', 'area_type': 'Outdoor', 'rating': '7', 'issue_type': 'Litter', 'description': 'Rating out of range', 'reporter': 'Meera Iyer', 'status': 'Open'}
+Row 7: rating: Rating must be a whole number from 1 to 5.
+    data: {'date': '2026-11-21', 'location': 'Sports Ground', 'area_type': 'Outdoor', 'rating': 'abc', 'issue_type': 'Litter', 'description': 'Rating not a number', 'reporter': 'Meera Iyer', 'status': 'Open'}
+Row 8: location: Location cannot be blank.
+    data: {'date': '2026-11-21', 'location': '', 'area_type': 'Library', 'rating': '3', 'issue_type': 'None', 'description': 'Blank location', 'reporter': 'Ananya Rao', 'status': 'Open'}
+Row 9: area_type: Area type must be one of: Classroom, Library, Cafeteria, Restroom, Hostel, Lab, Corridor, Outdoor.
+    data: {'date': '2026-11-21', 'location': 'Rooftop Terrace', 'area_type': 'Rooftop', 'rating': '3', 'issue_type': 'None', 'description': 'Unknown area type', 'reporter': 'Ananya Rao', 'status': 'Open'}
+Row 10: location: Location may only contain letters, digits, spaces and . , & ' ( ) # / -
+    data: {'date': '2026-11-21', 'location': '<script>alert(1)</script>', 'area_type': 'Lab', 'rating': '3', 'issue_type': 'None', 'description': 'Illegal characters', 'reporter': 'Vikram Singh', 'status': 'Open'}
+Row 11: description: Description is 320 characters; the limit is 300.
+    data: {'date': '2026-11-21', 'location': 'Chemistry Lab 2', 'area_type': 'Lab', 'rating': '3', 'issue_type': 'Spill', 'description': 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy', 'reporter': 'Vikram Singh', 'status': 'Open'}
+Row 12: rating: Rating is required (1 = filthy ... 5 = spotless).
+    data: {'date': '2026-11-21', 'location': 'Chemistry Lab 2', 'area_type': 'Lab', 'rating': '', 'issue_type': 'Spill', 'description': 'Missing rating', 'reporter': 'Vikram Singh', 'status': 'Open'}
+Row 13: duplicate: an identical report already exists
+    data: {'date': '2026-10-11', 'location': 'Lecture Hall 101', 'area_type': 'Classroom', 'rating': '5', 'issue_type': 'None', 'description': 'Floors swept, bins empty, nothing to report.', 'reporter': 'Sneha Reddy', 'status': 'Resolved'}

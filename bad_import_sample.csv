@@ -1,0 +1,13 @@
+date,location,area_type,rating,issue_type,description,reporter,status
+2026-11-22,Lecture Hall 305,Classroom,4,None,Valid row - imports fine,Priya Nair,
+2026-11-23,Auditorium Foyer,Corridor,3,Litter,Valid row - imports fine,Rahul Verma,Open
+23/11/2026,Main Cafeteria,Cafeteria,3,Spill,Wrong date format,Kiran Patel,Open
+2026-11-29,Main Cafeteria,Cafeteria,3,Spill,Future date,Kiran Patel,
+2026-11-21,Sports Ground,Outdoor,7,Litter,Rating out of range,Meera Iyer,Open
+2026-11-21,Sports Ground,Outdoor,abc,Litter,Rating not a number,Meera Iyer,Open
+2026-11-21,,Library,3,None,Blank location,Ananya Rao,Open
+2026-11-21,Rooftop Terrace,Rooftop,3,None,Unknown area type,Ananya Rao,Open
+2026-11-21,<script>alert(1)</script>,Lab,3,None,Illegal characters,Vikram Singh,Open
+2026-11-21,Chemistry Lab 2,Lab,3,Spill,yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy,Vikram Singh,Open
+2026-11-21,Chemistry Lab 2,Lab,,Spill,Missing rating,Vikram Singh,Open
+2026-10-11,Lecture Hall 101,Classroom,5,None,"Floors swept, bins empty, nothing to report.",Sneha Reddy,Resolved

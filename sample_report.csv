@@ -1,0 +1,49 @@
+id,date,location,area_type,rating,issue_type,description,reporter,status
+1,2026-10-11,Lecture Hall 101,Classroom,5,None,"Floors swept, bins empty, nothing to report.",Sneha Reddy,Resolved
+2,2026-10-15,Main Gate Garden,Outdoor,5,None,Spotless this morning.,Rahul Verma,Resolved
+3,2026-10-17,Admin Block Corridor,Corridor,4,None,Spotless this morning.,Sneha Reddy,Resolved
+4,2026-10-19,Central Library - Reading Hall,Library,5,None,Area looks tidy and well kept.,Aarav Sharma,Resolved
+5,2026-10-20,Sports Ground,Outdoor,4,Litter,Wrappers and paper cups scattered on the floor.,Priya Nair,Resolved
+6,2026-10-22,Computer Lab 1,Lab,5,None,Spotless this morning.,Vikram Singh,Resolved
+7,2026-10-24,Girls Hostel B - Lobby,Hostel,4,None,"Floors swept, bins empty, nothing to report.",Kiran Patel,Resolved
+8,2026-10-25,Lecture Hall 101,Classroom,5,None,Area looks tidy and well kept.,Priya Nair,Resolved
+9,2026-10-26,Block A Restroom (Women),Restroom,3,Odor,Drain smell is noticeable.,Sneha Reddy,Resolved
+10,2026-10-27,Lecture Hall 204,Classroom,4,None,Area looks tidy and well kept.,Meera Iyer,Resolved
+11,2026-10-28,Central Library - Ground Floor,Library,3,Litter,Litter around the seating area.,Priya Nair,Resolved
+12,2026-10-30,Main Cafeteria,Cafeteria,2,Overflowing bin,Bin is overflowing and attracting flies.,Aarav Sharma,Resolved
+13,2026-10-31,Block C Restroom (Men),Restroom,3,Odor,Stale odor throughout the room.,Rahul Verma,Resolved
+14,2026-11-02,Boys Hostel A - Common Room,Hostel,2,Litter,Wrappers and paper cups scattered on the floor.,Sneha Reddy,Resolved
+15,2026-11-03,Main Cafeteria,Cafeteria,3,Spill,Sticky liquid spill left uncleaned.,Priya Nair,Resolved
+16,2026-11-04,Chemistry Lab 2,Lab,3,Spill,Sticky liquid spill left uncleaned.,Faculty Staff,Resolved
+17,2026-11-04,Block D & E Corridor (2nd Floor),Corridor,4,None,Area looks tidy and well kept.,Arjun O'Connor,Resolved
+18,2026-11-05,Central Library - Ground Floor,Library,3,Spill,Sticky liquid spill left uncleaned.,Rahul Verma,Resolved
+19,2026-11-06,Block C Restroom (Men),Restroom,2,Missing supplies,Cleaning supplies not restocked.,Aarav Sharma,Resolved
+20,2026-11-07,Admin Block Corridor,Corridor,3,Graffiti,Scribbles on the desks and door.,Ananya Rao,Resolved
+21,2026-11-08,Boys Hostel A - Common Room,Hostel,2,Spill,Sticky liquid spill left uncleaned.,Vikram Singh,Resolved
+22,2026-11-09,Main Cafeteria,Cafeteria,2,Litter,Wrappers and paper cups scattered on the floor.,Sneha Reddy,Resolved
+23,2026-11-09,Computer Lab 1,Lab,3,Odor,Persistent odor near the workstations after the weekend; ventilation seems weak and the bins were not cleared. Please arrange a deep clean and check the air handling units before the next practical session begins. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,Kiran Patel,Resolved
+24,2026-11-10,Central Library - Ground Floor,Library,2,Odor,"Strong unpleasant smell, needs ventilation and cleaning.",Sneha Reddy,In Progress
+25,2026-11-11,Lecture Hall 204,Classroom,3,Litter,Litter around the seating area.,Rahul Verma,Resolved
+26,2026-11-12,Block C Restroom (Men),Restroom,2,Odor,"Strong unpleasant smell, needs ventilation and cleaning.",Kiran Patel,Resolved
+27,2026-11-12,Central Library - Reading Hall,Library,4,None,Spotless this morning.,Vikram Singh,Resolved
+28,2026-11-13,Chemistry Lab 2,Lab,3,Missing supplies,Cleaning supplies not restocked.,Faculty Staff,Resolved
+29,2026-11-14,Lecture Hall 101,Classroom,4,None,Spotless this morning.,Kiran Patel,Resolved
+30,2026-11-15,Main Cafeteria,Cafeteria,1,Overflowing bin,Garbage spilling out of the bin.,Meera Iyer,Open
+31,2026-11-15,Computer Lab 1,Lab,4,None,Spotless this morning.,Aarav Sharma,Resolved
+32,2026-11-16,Boys Hostel A - Common Room,Hostel,3,Litter,Wrappers and paper cups scattered on the floor.,Rahul Verma,Resolved
+33,2026-11-16,Lecture Hall 101,Classroom,5,Graffiti,Marker graffiti on the wall.,Rahul Verma,Resolved
+34,2026-11-17,Block C Restroom (Men),Restroom,1,Odor,Stale odor throughout the room.,Priya Nair,Open
+35,2026-11-17,Sports Ground,Outdoor,3,Litter,Packaging left on tables and benches.,Meera Iyer,In Progress
+36,2026-11-18,Central Library - Ground Floor,Library,2,Overflowing bin,Garbage spilling out of the bin.,Ananya Rao,Open
+37,2026-11-18,Block A Restroom (Women),Restroom,4,None,"Floors swept, bins empty, nothing to report.",Priya Nair,Resolved
+38,2026-11-19,Main Cafeteria,Cafeteria,2,Spill,Sticky liquid spill left uncleaned.,Vikram Singh,In Progress
+39,2026-11-19,Sports Ground,Outdoor,2,None,Area looks tidy and well kept.,Vikram Singh,Open
+40,2026-11-20,Chemistry Lab 2,Lab,2,Spill,Food spill near the entrance.,Faculty Staff,Open
+41,2026-11-20,Girls Hostel B - Lobby,Hostel,5,None,Area looks tidy and well kept.,Ananya Rao,Resolved
+42,2026-11-21,Block C Restroom (Men),Restroom,2,Missing supplies,Hand wash dispenser is empty.,Meera Iyer,Open
+43,2026-11-21,Lecture Hall 204,Classroom,1,None,"Floors swept, bins empty, nothing to report.",Meera Iyer,Open
+44,2026-11-22,Central Library - Ground Floor,Library,2,Litter,Packaging left on tables and benches.,Kiran Patel,Open
+45,2026-11-22,Boys Hostel A - Common Room,Hostel,4,None,Area looks tidy and well kept.,Aarav Sharma,Resolved
+46,2026-11-23,Main Cafeteria,Cafeteria,2,Litter,Litter around the seating area.,Ananya Rao,Open
+47,2026-11-23,Main Cafeteria,Cafeteria,2,Litter,Second note about the same tables - still littered.,Ananya Rao,Open
+48,2026-11-24,Main Gate Garden,Outdoor,5,None,Area looks tidy and well kept.,Anonymous,Resolved
